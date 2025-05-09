@@ -48,3 +48,16 @@ This application allows users to track their daily, monthly, and annual calorie 
 - Select meal type (breakfast, snack, lunch, dinner)
 - View nutrient consumption percentages
 - Set daily, monthly, and annual calorie limits
+
+## How to Run This Project
+
+1. **Install dependencies**  
+   Ensure you have Python 3.9+ installed. Then, install the required libraries:
+
+   ```bash
+   pip install pyqt6
+
+   git clone <repository_url>
+   cd <project_directory>
+
+   python main.py
