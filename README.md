@@ -32,53 +32,27 @@ This application allows users to track their daily, monthly, and annual calorie 
 
 ---
 
-## Class Brief Description
+## Class Descriptions
 
-- **MainWindow**  
-  Represents the main window of the application. Provides a welcome screen and options to sign up or sign in.
-
-- **SignUpWindow**  
-  Allows new users to register by entering their first name, last name, and pin code. Generates a username upon successful signup.
-
-- **TestGenerateUsername**  
-  Unit test class for testing the username generation functionality.
-
-- **TestAddNewUser**  
-  Unit test class for verifying the addition of new users to the system.
-
-- **SignInWindow**  
-  Enables registered users to log in using their username and pin code.
-
-- **UserDashboard**  
-  Interface for registered users with functionalities like adding meals, viewing consumed calories, and updating profile details.
-
-- **UpdateProfileWindow**  
-  Allows users to update profile information such as height, weight, and calorie limits.
-
-- **ViewBMI**  
-  Displays the user's Body Mass Index (BMI) and corresponding status based on profile data.
-
-- **AddMealWindow**  
-  Allows users to input meal details, including type (e.g., breakfast, lunch, dinner, snack).
-
-- **ViewDailyCalorieConsumption**  
-  Displays the daily calorie consumption and meal details for a specific day.
-
-- **ViewMonthlyCalorieConsumption**  
-  Shows monthly calorie consumption in a pie chart format.
-
-- **ViewAnnualCalorieConsumption**  
-  Displays total annual calorie consumption.
-
-- **ChangePincode**  
-  Allows users to change their PIN for account security.
-
-- **Utility**  
-  Contains static utility methods such as:
-  - `generate_username`: Generates usernames from user details.
-  - `draw_pie_chart`: Draws pie charts for nutrient consumption visualization.
+| **Class Name**                  | **Description** |
+|---------------------------------|-----------------|
+| `MainWindow`                    | Represents the main window. Provides a welcome screen and options to sign up or sign in. |
+| `SignUpWindow`                  | Allows new users to register with first name, last name, and pin code. Generates a username upon successful signup. |
+| `TestGenerateUsername`          | Unit test class for verifying username generation. |
+| `TestAddNewUser`                | Unit test class for verifying the addition of new users to the system. |
+| `SignInWindow`                  | Allows users to log in using their username and pin code. |
+| `UserDashboard`                 | Interface for users to add meals, view calories, and update profile details. |
+| `UpdateProfileWindow`           | Allows updates to profile data such as height, weight, and calorie limits. |
+| `ViewBMI`                       | Displays Body Mass Index (BMI) and corresponding status. |
+| `AddMealWindow`                 | Allows entry of meal details (breakfast, lunch, dinner, snack). |
+| `ViewDailyCalorieConsumption`   | Displays calories consumed on a selected day. |
+| `ViewMonthlyCalorieConsumption` | Shows monthly calorie consumption using pie charts. |
+| `ViewAnnualCalorieConsumption`  | Displays total calorie consumption over a year. |
+| `ChangePincode`                 | Enables users to change their account PIN. |
+| `Utility`                       | Contains utility functions like `generate_username` and `draw_pie_chart`. |
 
 ---
+
 
 ## Libraries Used
 
